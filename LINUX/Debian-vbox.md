@@ -36,6 +36,12 @@ Arrangement & Colors
 Screensaver
 -----------
 * Desktop Taskbar Menu -> `Preferences` -> `Screensaver` -> Mode: `Disable Screen Saver`
+```bash
+su -c "nano -w /etc/xdg/lxsession/LXDE/autostart"
+
+## Comment out... ##
+#@xscreensaver -no-splash
+```
 
 
 File Manager
