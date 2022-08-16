@@ -1,11 +1,17 @@
-Install Debian GNU/Linux
-========================
+Install Debian GNU/Linux in VirtualBox
+======================================
 
-* [Installation Guide](https://www.debian.org/releases/bullseye/installmanual)
+* Download & install [VirtualBox](https://www.virtualbox.org/)
 
-* Download & mount [Debian 11 netinst ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.4.0-amd64-netinst.iso):
-    - in VirtualBox Manager -> Right-click `Debian 11` -> `Settings...`
-        - `Storage` -> `Controller: ...` -> :cd: : Empty -> Optical Drive: `Choose a disk file...` -> debian-11.4.0-amd64-netinst.iso
+* [Debian's Installation Guide](https://www.debian.org/releases/bullseye/installmanual)
+
+* Download & mount [Debian 11 netinst ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.4.0-amd64-netinst.iso)
+    - VirtualBox Manager Menu Bar -> `Machine` -> `New`
+        - Name: `Debian 11`
+        - Memory size: `2048 MB`
+        - `Check`: Create a virtual hard disk now -> `Create` -> `16 GB` -> `VDI` -> `Check`: Dynamically allocated -> `Create`
+    - VirtualBox Manager -> right-click `Debian 11` -> `Settings`
+        - `Storage` -> Controller: -> 💿 Empty -> Optical Drive 💿 `Choose a disk file...` -> debian-11.4.0-amd64-netinst.iso -> `OK`
 
 * `LXDE` (only) --> 1126 packages --> ~5 gigs to unpack & install
 
@@ -21,16 +27,16 @@ Desktop Settings
 
 Desktop Resolution
 ------------------
-1. Resize display: Desktop Taskbar Menu -> `Preferences` -> `Monitor Settings` -> 1280x768 -> `Apply` & `Save`
-2. VirtualBox Menu Bar -> `View` -> `Adjust Window Size` ((right)`CTRL`+`A`)
+1. Desktop Taskbar Menu -> `Preferences` -> `Monitor Settings` -> 800x600 -> `Apply` & `Save`
+2. VirtualBox Menu Bar -> `View` -> `Adjust Window Size`
 
 
 Arrangement & Colors
 --------------------
 * Taskbar Position:
-    - Right-click Desktop Task Bar -> `Panel Settings` -> Position Edge: Top
+    - right-click Desktop Task Bar -> `Panel Settings` -> Position Edge: `Top`
 * Look & Feel:
-    - Desktop Taskbar Menu -> `Preferences` -> `Customize Look and Feel` -> Adwaita-dark -> `Apply`
+    - Desktop Taskbar Menu -> `Preferences` -> `Customize Look and Feel` -> `Adwaita-dark` -> `Apply`
 
 
 Screensaver
@@ -106,15 +112,17 @@ $ sudo apt-get upgrade --show-upgraded
 
 * Install some packages:
 ```bash
-$ sudo apt-get install build-essential dkms linux-headers-$(uname -r) idle3 python3-pip chromium gimp inkscape keepassxc
+$ sudo apt-get install idle3 python3-pip chromium gimp inkscape keepassxc
 $ sudo apt-get clean
 ```
-(+~713 MB after installation -- 4.1 GB total for system)
 
 
 * Install VirtualBox Guest Additions:
 VirtualBox Menu Bar -> `Devices` -> `Insert Guest Additions CD Image...`
 ```bash
+$ sudo apt-get install build-essential dkms linux-headers-$(uname -r)
+$ sudo apt-get clean
+
 $ mount /media/cdrom
 $ cd /media/cdrom
 $ sudo bash ./VBoxLinuxAdditions.run
@@ -147,6 +155,29 @@ Configure Python / IDLE
 
 * Install / upgrade 3rd-party libraries:
 ```bash
-$ pip3 install --upgrade pygame
-$ pip3 cache purge
+pip3 install --upgrade pygame
+pip3 cache purge
+```
+
+
+Completely Remove LibreOffice
+=============================
+```bash
+sudo apt-get purge -s libreoffice*
+sudo apt-get autoremove
+sudo apt-get clean
+
+aptitude search '~i' | grep libreoffice
+```
+
+
+3D Video Acceleration
+=====================
+VirtualBox Machine -> (right-click) Debian 11 -> `Settings...` -> `Display`
+    - Video Memory: 128 MB
+    - Graphics Controller: VMSVGA
+    - Check: Enable 3D Acceleration
+```
+glxinfo |grep OpenGL
+glxgears
 ```
