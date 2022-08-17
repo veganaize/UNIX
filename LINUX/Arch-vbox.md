@@ -84,7 +84,8 @@ exit
 reboot
 ```
 1. VirtualBox Menu Bar --> `Devices` -> `Optical Drives` -> `Remove disc from virtual drive`
-2. Force Unmount (if necessary)
+2. `Force Unmount` (if necessary)
+3. VirtualBox Menu Bar --> `Machine` -> `Reset` (or `HOST+R`)
 
 
 [General Recommendations](https://wiki.archlinux.org/title/General_recommendations)
