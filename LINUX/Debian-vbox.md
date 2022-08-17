@@ -3,7 +3,7 @@ Install Debian GNU/Linux in VirtualBox
 
 1. Download & install [VirtualBox](https://www.virtualbox.org/)
 
-* [Debian's Installation Guide](https://www.debian.org/releases/bullseye/installmanual)
+[_Debian's Installation Guide_](https://www.debian.org/releases/bullseye/installmanual)
 
 2. Download & mount [Debian 11 netinst ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.4.0-amd64-netinst.iso)
     - VirtualBox Manager Menu Bar -> `Machine` -> `New`
@@ -105,7 +105,7 @@ Expand repositories
 sudo nano -w /etc/apt/sources.list
 ```
 1. Append ` contrib non-free` to all entries
-2. `CTRL+X`, `Y`, `ENTER`
+2. `CTRL+X` -> `Y` -> `ENTER`
 
 
 Update system
@@ -165,13 +165,13 @@ Python + IDLE
 sudo apt-get install idle3 python3-pip
 sudo apt-get clean
 ```
-
-* Desktop Taskbar Menu -> Programming -> IDLE
+_To configure IDLE..._
+* Desktop Taskbar Menu -> `Programming` -> `IDLE`
     - IDLE Menu Bar -> `Options` -> `Configure IDLE`
         - Font Size: `18` `Bold`
         - Highlights -> Highlighting Theme: `IDLE Dark`
 
-* Install / upgrade 3rd-party libraries:
+_To install / upgrade 3rd-party libraries..._
 ```bash
 pip3 install --upgrade pygame
 pip3 cache purge
