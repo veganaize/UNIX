@@ -1,3 +1,4 @@
 # UNIX
 
-* [Install Debian in VirtualBox](https://github.com/veganaize/UNIX/blob/main/LINUX/Debian-vbox.md)
+* [Install Debian in VirtualBox](LINUX/Debian-vbox.md)
+* [Install Arch in VirtualBox](LINUX/Arch-vbox.md)
