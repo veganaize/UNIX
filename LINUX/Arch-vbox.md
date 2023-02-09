@@ -143,7 +143,7 @@ Users
 ----------------------------------------
 
 ```bash
-useradd -m -G ftp,games,http,sys,uucp,wheel,audio,video,scanner <username>
+useradd -m -G ftp,games,http,sys,uucp,wheel,audio,video,scanner,storage <username>
 passwd <username>
 
 EDITOR=nano visudo
