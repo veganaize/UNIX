@@ -144,7 +144,6 @@ pacman -S reflector \
 
 ```bash
 useradd -m -G audio,disk,ftp,games,http,lp,network,power,scanner,storage,sys,users,uucp,video,wheel <username>
-              ftp,games,http,sys,uucp,wheel,audio,video,scanner,storage,users,disk,lp,network,power
 passwd <username>
 
 EDITOR=nano visudo
