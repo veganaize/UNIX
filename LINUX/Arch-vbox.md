@@ -139,11 +139,12 @@ pacman -S reflector \
 ```
 
 
-Users
+[Users](https://wiki.archlinux.org/title/User:Gen2ly/Users_and_groups#Group_listings)
 ----------------------------------------
 
 ```bash
-useradd -m -G ftp,games,http,sys,uucp,wheel,audio,video,scanner,storage <username>
+useradd -m -G audio,disk,ftp,games,http,lp,network,power,scanner,storage,sys,users,uucp,video,wheel <username>
+              ftp,games,http,sys,uucp,wheel,audio,video,scanner,storage,users,disk,lp,network,power
 passwd <username>
 
 EDITOR=nano visudo
