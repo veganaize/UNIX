@@ -133,8 +133,6 @@ ___Remove___  | `pacman -Rs <package>`
 pacman -S reflector \
           base-devel \
           colorgcc \
-          python \
-          python-pip \
           gpm \
 ```
 
@@ -182,6 +180,8 @@ pacman -S lxde \
           xf86-video-fbdev \
           leafpad \
           chromium \
+          python \
+          python-pip \
           tk \
           ttf-dejavu \
           ttf-droid \
