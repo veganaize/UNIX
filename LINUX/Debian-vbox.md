@@ -5,7 +5,7 @@ Install Debian GNU/Linux in VirtualBox
 
 [_Debian's Installation Guide_](https://www.debian.org/releases/bullseye/installmanual)
 
-2. Download & mount [Debian 11 netinst ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.4.0-amd64-netinst.iso)
+2. Download & mount [Debian 11 netinst ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/)
     - VirtualBox Manager Menu Bar -> `Machine` -> `New`
         - Name: `Debian 11`
         - Memory size: `2048 MB`
