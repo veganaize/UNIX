@@ -119,14 +119,16 @@ systemctl start  systemd-resolved.service
 Pacman
 ----------------------------------------
 
-Task          | Command
-:------------:|---------------------------------
-___Update___  | `pacman -Syyu`
-___Search___  | `pacman -Ss string1 string2 ...`
-___Info___    | `pacman -Si <package>`
-___Install___ | `pacman -S <package(s)>`
-___Clean___   | `pacman -Scc`
-___Remove___  | `pacman -Rs <package>`
+Task                 | Command
+:-------------------:|---------------------------------
+___Update___         | `pacman -Syyu`
+___Search___         | `pacman -Ss string1 string2 ...`
+___Info___           | `pacman -Si <package>`
+___Install___        | `pacman -S <package(s)>`
+___Clean___          | `pacman -Scc`
+___Remove___         | `pacman -Rs <package>`
+___Owned Files___    | `pacman -Ql <package>`
+___Owning Package___ | `pacman -Qo <file>`
 
 ---
 ```bash
