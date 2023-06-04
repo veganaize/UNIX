@@ -129,13 +129,13 @@ ___Clean___          | `pacman -Scc`
 ___Remove___         | `pacman -Rs <package>`
 ___Owned Files___    | `pacman -Ql <package>`
 ___Owning Package___ | `pacman -Qo <file>`
+___Install (AUR)___  | `git clone https://aur.archlinux.org/somepackage.git`<br />`cd somepackage`<br />`makepkg -sirc`
 
 ---
 ```bash
-pacman -S reflector \
-          base-devel \
-          colorgcc \
-          gpm \
+pacman -S base-devel \
+          python \
+          python-pip \
 ```
 
 
@@ -182,8 +182,6 @@ pacman -S lxde \
           xf86-video-fbdev \
           leafpad \
           chromium \
-          python \
-          python-pip \
           tk \
           ttf-dejavu \
           ttf-droid \
