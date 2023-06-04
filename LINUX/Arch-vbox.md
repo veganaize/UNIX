@@ -126,7 +126,7 @@ ___Search___         | `pacman -Ss string1 string2 ...`
 ___Info___           | `pacman -Si <package>`
 ___Install___        | `pacman -S <package(s)>`
 ___Clean___          | `pacman -Scc`
-___Remove___         | `pacman -Rs <package>`
+___Remove___         | `pacman -Rns <package>`
 ___Owned Files___    | `pacman -Ql <package>`
 ___Owning Package___ | `pacman -Qo <file>`
 ___Install (AUR)___  | `git clone https://aur.archlinux.org/somepackage.git`<br />`cd somepackage`<br />`makepkg -sirc`
