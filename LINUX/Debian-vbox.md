@@ -73,6 +73,12 @@ LXTerminal
 Console Stuff
 =============
 
+Add user
+--------
+```bash
+su -c "adduser username"
+```
+
 Add user to sudo
 ----------------
 ```bash
