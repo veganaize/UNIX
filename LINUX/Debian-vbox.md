@@ -5,15 +5,15 @@ Install Debian GNU/Linux in VirtualBox
 
 [_Debian's Installation Guide_](https://www.debian.org/releases/bullseye/installmanual)
 
-2. Download & mount [Debian 11 netinst ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/)
+2. Download & mount [Debian netinst ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/)
     - VirtualBox Manager Menu Bar -> `Machine` -> `New`
-        - Name: `Debian 11`
+        - Name: `Debian`
         - Memory size: `2048 MB`
         - `Check`: Create a virtual hard disk now -> `Create` -> `16 GB` -> `VDI` -> `Check`: Dynamically allocated -> `Create`
     - VirtualBox Manager -> right-click `Debian 11` -> `Settings`
-        - `Storage` -> Controller: -> 💿 Empty -> Optical Drive 💿 `Choose a disk file...` -> debian-11.4.0-amd64-netinst.iso -> `OK`
+        - `Storage` -> Controller: -> 💿 Empty -> Optical Drive 💿 `Choose a disk file...` -> debian-*-netinst.iso -> `OK`
 
-3. VirtualBox Manager -> double-click `Debian 11`
+3. VirtualBox Manager -> double-click `Debian`
 
 4. `LXDE` (only) --> 1126 packages --> ~5 gigs to unpack & install
 
