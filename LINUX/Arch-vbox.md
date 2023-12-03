@@ -121,6 +121,7 @@ Pacman
 
 Task                 | Command
 :-------------------:|---------------------------------
+___Update Keys___    | `pacman -S archlinux-keyring`
 ___Update___         | `pacman -Syyu`
 ___Search___         | `pacman -Ss string1 string2 ...`
 ___Info___           | `pacman -Si <package>`
