@@ -10,7 +10,7 @@ Install Debian GNU/Linux in VirtualBox
         - Name: `Debian`
         - Memory size: `2048 MB`
         - `Check`: Create a virtual hard disk now -> `Create` -> `16 GB` -> `VDI` -> `Check`: Dynamically allocated -> `Create`
-    - VirtualBox Manager -> right-click `Debian 11` -> `Settings`
+    - VirtualBox Manager -> right-click `Debian` -> `Settings`
         - `Storage` -> Controller: -> 💿 Empty -> Optical Drive 💿 `Choose a disk file...` -> debian-*-netinst.iso -> `OK`
 
 3. VirtualBox Manager -> double-click `Debian`
