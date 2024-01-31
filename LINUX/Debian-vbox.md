@@ -118,7 +118,7 @@ Update system
 -------------
 ```bash
 sudo apt-get update
-sudo apt-get upgrade --show-upgraded
+sudo apt-get upgrade --show-upgraded [--with-new-pkgs]
 ```
 
 
