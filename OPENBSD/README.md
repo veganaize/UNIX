@@ -4,12 +4,23 @@ OpenBSD
 💾 Install
 ----------
 
-(I)nstall
-  - (us) keyboard layout
+```
+[I]nstall
+  - [us] keyboard layout
 
-(C)ustom
-  - (p)rint partitions
-  - (a)dd partition
+[C]ustom
+  - [h]elp
+  - [p]rint partitions
+  - [z] delete all partitions
+  - [a]dd partition
+    - partition to add: [a]
+    - offset: [64]
+    - size: [########]
+    - FS type: [4.2BSD]
+    - mount point: /
+  - [w]rite label to disk
+  - [q]uit, saving changes
+```
 
 
 🔨 Post-install
