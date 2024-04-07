@@ -26,6 +26,32 @@ OpenBSD
     $ man packages
 
     # syspatch
+    # vi /etc/ssh/sshd_config
+      `PermitRootLogin no`
+    
+    $ date
+    # ln -fs /usr/share/zoneinfo/US/Pacific /etc/localtime
+
+    $ man ps
+    $ man netstat
+    $ man fstat
+
+    # adduser
+    # vi /etc/group
+      `wheel:*:0:root,veganaiZe`
+
+    $ man audio
+    $ man video
+    # vi /etc/sysctl.conf
+      ```
+      kern.audio.record=1
+      kern.video.record=1
+      ```
+
+    $ man apmd
+    $ man fbtab
+    $ man crontab
+    # crontab -l
 
     # pkg_add -u
     $ pkg_info -Q unzip
@@ -47,6 +73,7 @@ OpenBSD
 https://mirrors.mit.edu/pub/OpenBSD/7.4/packages-stable/amd64/
 https://mirrors.mit.edu/pub/OpenBSD/7.4/packages/amd64/
 
+```sh
 chromium*
 clamav*
 curl*
@@ -98,6 +125,7 @@ tor-browser*
 weechat
 wkhtmltopdf
 xcursor-themes
+```
 
 
 💻 X Window System
