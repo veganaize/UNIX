@@ -135,6 +135,7 @@ python \
 python-idle \
 pylint3 \
 ruby \
+scala \
 sdl2 \
 seamonkey \
 thunderbird \  #
