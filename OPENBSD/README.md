@@ -53,7 +53,7 @@ OpenBSD
     $ man crontab
     # crontab -l
 
-    # pkg_add -u
+    # pkg_add -u [pkgname(s)]  # Update system or specific packages
     $ pkg_info -Q unzip
     $ pkglocate mutool
 
