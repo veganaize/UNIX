@@ -24,6 +24,7 @@ OpenBSD
     $ man afterboot
     $ man intro
     $ man packages
+    $ man config
 
     # syspatch
     # vi /etc/ssh/sshd_config
@@ -61,10 +62,13 @@ OpenBSD
     # pkg_delete <pkg(s)>
     # pkg_delete -a
 
+    $ man rc.d
+    $ man rc
+    # rcctl 
 
-/etc/rc.conf
-/etc/rc.conf.local
-/etc/rc.conf.d/
+    /etc/rc.conf
+    /etc/rc.conf.local
+    /etc/rc.conf.d/
 
 
 📦 Packages
@@ -139,8 +143,8 @@ xcursor-themes
     . $HOME/.profile
     startlxqt
 
-https://www.openbsd.org/faq/faq11.html
-https://www.x.org/archive/X11R7.5/doc/platforms/OpenBSD.html
+* https://www.openbsd.org/faq/faq11.html
+* https://www.x.org/archive/X11R7.5/doc/platforms/OpenBSD.html
 
 
 📨 Submit Device Info
