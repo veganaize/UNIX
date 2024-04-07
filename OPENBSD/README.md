@@ -154,7 +154,7 @@ xcursor-themes \
     # rcctl start xenodm
 
 
-    xrandr --output default --mode 1600x900
+    xrandr --output default --mode <1600x900 | 1368x768>
     . $HOME/.profile
     startlxqt
 
