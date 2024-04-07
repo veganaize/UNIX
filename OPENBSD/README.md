@@ -97,6 +97,7 @@ clamav \  #
 curl \  #
 ezquake \  #
 firefox-esr \  #
+geany \
 gimp \  #
 git \
 gtk+2 \
@@ -153,10 +154,16 @@ xcursor-themes \
     # rcctl enable xenodm
     # rcctl start xenodm
 
-
     xrandr --output default --mode <1600x900 | 1368x768>
     . $HOME/.profile
     startlxqt
+
+-> DesktopSettings
+  -> LXQt Settings
+    -> Keyboard and Mouse
+      -> Cursor
+        -> whiteglass
+        -> Size: 32
 
 * https://www.openbsd.org/faq/faq11.html
 * https://www.x.org/archive/X11R7.5/doc/platforms/OpenBSD.html
