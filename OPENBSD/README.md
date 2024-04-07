@@ -161,10 +161,13 @@ xcursor-themes \
 * https://www.x.org/archive/X11R7.5/doc/platforms/OpenBSD.html
 
 
-Java / JDK
-----------
+☕ Java / JDK
+-------------
 
-/etc/man.conf <-- /usr/local/jdk-1.8.0/man
+```
+# nano /etc/man.conf
+    `manpath /usr/local/jdk-1.8.0/man`
+```
 
 
 📨 Submit Device Info
