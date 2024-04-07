@@ -25,6 +25,8 @@ OpenBSD
     $ man intro
     $ man packages
 
+    # syspatch
+
     # pkg_add -u
     $ pkg_info -Q unzip
     $ pkglocate mutool
