@@ -20,6 +20,9 @@ OpenBSD
     - mount point: /
   - [w]rite label to disk
   - [q]uit, saving changes
+
+Location of sets: http
+  - HTTP server: mirrors.mit.edu
 ```
 
 
