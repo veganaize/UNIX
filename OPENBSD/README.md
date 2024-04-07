@@ -78,57 +78,57 @@ OpenBSD
 * https://mirrors.mit.edu/pub/OpenBSD/7.5/packages/amd64/
 
 ```sh
-chromium*
-clamav*
-curl*
-ezquake*
-firefox-esr*
-gimp*
-git
-gtk+2
-gtk2mm
-inkscape
-jdk
-jupyter-notebook
-kbreakout
-kajongg
-kcachegrind
-leafpad
-lxappearance
-lxqt
-lxqt-extras
-lxqt-panel
-lxqt-powermanagement
-lxqt-sudo
-lxqt-themes
-lxrandr
-lxterminal
-mplayer
-mtools
-mtpaint
-mupen64plus
-mypaint
-nano
-nasm
-node
-openbox*
-pcmanfm
-pcmanfm-qt
-pcre++
-pcre2
-php*
-python
-python-idle
-pylint3
-ruby
-sdl2
-seamonkey
-thunderbird*
-tor*
-tor-browser*
-weechat
-wkhtmltopdf
-xcursor-themes
+ungoogled-chromium \  #
+clamav \  #
+curl \  #
+ezquake \  #
+firefox-esr \  #
+gimp \  #
+git \
+gtk+2 \
+gtk2mm \
+inkscape \
+jdk \
+jupyter-notebook \
+kbreakout \
+kajongg \
+kcachegrind \
+leafpad \
+lxappearance \
+lxqt \
+lxqt-extras \
+lxqt-panel \
+lxqt-powermanagement \
+lxqt-sudo \
+lxqt-themes \
+lxrandr \
+lxterminal \
+mplayer \
+mtools \
+mtpaint \
+mupen64plus \
+mypaint \
+nano \
+nasm \
+node \
+openbox \  #
+pcmanfm \
+pcmanfm-qt \
+pcre++ \
+pcre2 \
+php \  #
+python \
+python-idle \
+pylint3 \
+ruby \
+sdl2 \
+seamonkey \
+thunderbird \  #
+tor \  #
+tor-browser \  #
+weechat \
+wkhtmltopdf \
+xcursor-themes \
 ```
 
 
