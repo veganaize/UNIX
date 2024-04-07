@@ -53,9 +53,9 @@ OpenBSD
     $ man crontab
     # crontab -l
 
-    # pkg_add -u [pkgname(s)]  # Update system or specific packages
+    # pkg_add -u [pkgname(s)]  # Update specific package(s) or all
     $ pkg_info -Q unzip
-    $ pkglocate mutool
+    $ pkglocate mutool  # Find files in packages
 
     # pkg_add -v chromium firefox pkglocatedb
     # pkg_delete <pkg(s)>
@@ -70,8 +70,8 @@ OpenBSD
 📦 Packages
 -----------
 
-https://mirrors.mit.edu/pub/OpenBSD/7.4/packages-stable/amd64/
-https://mirrors.mit.edu/pub/OpenBSD/7.4/packages/amd64/
+* https://mirrors.mit.edu/pub/OpenBSD/7.5/packages-stable/amd64/
+* https://mirrors.mit.edu/pub/OpenBSD/7.5/packages/amd64/
 
 ```sh
 chromium*
