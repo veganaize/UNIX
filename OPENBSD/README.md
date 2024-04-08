@@ -93,6 +93,7 @@ Location of sets: http
 
 ```sh
 allegro \
+anki \
 apache-ant \
 apktool \
 bible-kjv \
@@ -108,6 +109,7 @@ gimp \  #
 git \
 gtk+2 \
 gtk2mm \
+gtypist \
 inkscape \
 jdk \
 jlint \
@@ -115,11 +117,13 @@ junit \
 jupyter-notebook \
 kate \
 kajongg \
+kalgebra \
 kbreakout \
 kcachegrind \
 kdenlive \
 kdevelop \
 kguitar \
+klogic \
 ktouch \
 leafpad \
 lwjgl \
