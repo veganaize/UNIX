@@ -92,23 +92,37 @@ Location of sets: http
 * https://mirrors.mit.edu/pub/OpenBSD/7.5/packages/amd64/
 
 ```sh
-ungoogled-chromium \  #
+allegro \
+apache-ant \
+apktool \
+bible-kjv \
 clamav \  #
+clojure \
 curl \  #
 ezquake \  #
+ffmpeg \
 firefox-esr \  #
 geany \
+gedit \
 gimp \  #
 git \
 gtk+2 \
 gtk2mm \
 inkscape \
 jdk \
+jlint \
+junit \
 jupyter-notebook \
-kbreakout \
+kate \
 kajongg \
+kbreakout \
 kcachegrind \
+kdenlive \
+kdevelop \
+kguitar \
+ktouch \
 leafpad \
+lwjgl \
 lxappearance \
 lxqt \
 lxqt-extras \
@@ -118,20 +132,32 @@ lxqt-sudo \
 lxqt-themes \
 lxrandr \
 lxterminal \
+maven \
+mc \
+minecraft \
+mlt \
 mplayer \
+mpv \
 mtools \
 mtpaint \
 mupen64plus \
 mypaint \
 nano \
 nasm \
+netbeans \
+nmap \
+nmap-zenmap \
 node \
+nyancat \
 openbox \  #
+os-test \
+pcbasic \
 pcmanfm \
 pcmanfm-qt \
 pcre++ \
 pcre2 \
 php \  #
+postgresql-* \
 python \
 python-idle \
 pylint3 \
@@ -139,12 +165,22 @@ ruby \
 scala \
 sdl2 \
 seamonkey \
+sfml \
+smplayer \
+smtube \
+synfig \
+synfigstudio \
 thunderbird \  #
 tor \  #
 tor-browser \  #
+ungoogled-chromium \  #
+vega-strike \
+vim \
 weechat \
+wget \
 wkhtmltopdf \
 xcursor-themes \
+zsh \
 ```
 
 
