@@ -104,9 +104,12 @@ ezquake \  #
 ffmpeg \
 firefox-esr \  #
 geany \
+gcc \
+g++ \
 gedit \
 gimp \  #
 git \
+gmake \
 gtk+2 \
 gtk2mm \
 gtypist \
