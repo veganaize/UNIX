@@ -91,26 +91,26 @@ Location of sets: http
 * https://mirrors.mit.edu/pub/OpenBSD/7.5/packages-stable/amd64/
 * https://mirrors.mit.edu/pub/OpenBSD/7.5/packages/amd64/
 
-```
+<pre>
 Editors
 -------
 
 elvis \
 ffmpeg \
-geany \
+<a href="https://www.geany.org/">geany</a> \
 gedit \
-gimp \  #
-inkscape \
-kate \
-kdenlive \
+<a href="https://www.gimp.org/">gimp</a> \  #
+<a href="https://inkscape.org/">inkscape</a> \
+<a href="https://kate-editor.org/">kate</a> \
+<a href="https://kdenlive.org/en/">kdenlive</a> \
 kdevelop \
-leafpad \
+<a href="http://tarot.freeshell.org/leafpad/">leafpad</a> \
 mtpaint \
 mypaint \
 nano \
-nedit \
+<a href="https://en.wikipedia.org/wiki/NEdit">nedit</a> \
 netbeans \
-python-idle \
+<a href="https://en.wikipedia.org/wiki/IDLE">python-idle</a> \
 synfig \
 synfigstudio \
 vim \
@@ -129,7 +129,7 @@ kguitar \
 klogic \
 ktouch \
 minecraft \
-mupen64plus \
+<a href="https://mupen64plus.org/">mupen64plus</a> \
 nyancat \
 vega-strike \
 
@@ -147,13 +147,13 @@ tor \  #
 tor-browser \  #
 ungoogled-chromium \  #
 wget \
-weechat \
+<a href="https://weechat.org/about/">weechat</a> \
 
 
 Programming
 -----------
 
-allegro \
+<a href="https://liballeg.org/">allegro</a> \
 apache-ant \
 apktool \
 clojure \
@@ -161,11 +161,10 @@ gcc \
 g++ \
 git \
 gmake \
-gtk+2 \
+<a href="https://developer-old.gnome.org/gtk2/2.24/">gtk+2</a> \
 gtk2mm \
-jdk \
-jlint \
-junit \
+<a href="https://en.wikipedia.org/wiki/OpenJDK">jdk</a> \
+<a href="https://jlint.sourceforge.net/">jlint</a> \
 jupyter-notebook \
 kcachegrind \
 lwjgl \
@@ -173,7 +172,7 @@ maven \
 mlt \
 nasm \
 node \
-pcbasic \
+<a href="http://robhagemans.github.io/pcbasic/">pcbasic</a> \
 pcre++ \
 pcre2 \
 php \  #
@@ -191,10 +190,10 @@ Util
 
 anki \
 bible-kjv \
-clamav \  #
-i3 \
+<a href="https://www.clamav.net/">clamav</a> \  #
+<a href="https://i3wm.org/">i3</a> \
 lxappearance \
-lxqt \
+<a href="https://lxqt-project.org/">lxqt</a> \
 lxqt-extras \
 lxqt-panel \
 lxqt-powermanagement \
@@ -208,13 +207,13 @@ mpv \
 mtools \
 openbox \  #
 os-test \
-pcmanfm \
-pcmanfm-qt \
+<a href="https://github.com/lxde/pcmanfm">pcmanfm</a> \
+<a href="https://github.com/lxqt/pcmanfm-qt">pcmanfm-qt</a> \
 smplayer \
 smtube \
 xcursor-themes \
-zsh \
-```
+<a href="https://zsh.sourceforge.io/">zsh</a> \
+</pre>
 
 
 💻 X Window System
