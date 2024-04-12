@@ -91,45 +91,108 @@ Location of sets: http
 * https://mirrors.mit.edu/pub/OpenBSD/7.5/packages-stable/amd64/
 * https://mirrors.mit.edu/pub/OpenBSD/7.5/packages/amd64/
 
-```sh
-allegro \
-anki \
-apache-ant \
-apktool \
-bible-kjv \
-clamav \  #
-clojure \
-curl \  #
-ezquake \  #
+```
+Editors
+-------
+
+elvis \
 ffmpeg \
-firefox-esr \  #
 geany \
-gcc \
-g++ \
 gedit \
 gimp \  #
+inkscape \
+kate \
+kdenlive \
+kdevelop \
+leafpad \
+mtpaint \
+mypaint \
+nano \
+nedit \
+netbeans \
+python-idle \
+synfig \
+synfigstudio \
+vim \
+wkhtmltopdf \
+
+
+Games
+-----
+
+ezquake \  #
+gtypist \
+kajongg \
+kalgebra \
+kbreakout \
+kguitar \
+klogic \
+ktouch \
+minecraft \
+mupen64plus \
+nyancat \
+vega-strike \
+
+
+Internet
+--------
+
+curl \  #
+firefox-esr \  #
+nmap \
+nmap-zenmap \
+seamonkey \
+thunderbird \  #
+tor \  #
+tor-browser \  #
+ungoogled-chromium \  #
+wget \
+weechat \
+
+
+Programming
+-----------
+
+allegro \
+apache-ant \
+apktool \
+clojure \
+gcc \
+g++ \
 git \
 gmake \
 gtk+2 \
 gtk2mm \
-gtypist \
-inkscape \
 jdk \
 jlint \
 junit \
 jupyter-notebook \
-kate \
-kajongg \
-kalgebra \
-kbreakout \
 kcachegrind \
-kdenlive \
-kdevelop \
-kguitar \
-klogic \
-ktouch \
-leafpad \
 lwjgl \
+maven \
+mlt \
+nasm \
+node \
+pcbasic \
+pcre++ \
+pcre2 \
+php \  #
+postgresql-* \
+python \
+pylint3 \
+ruby \
+scala \
+sdl2 \
+sfml \
+
+
+Util
+----
+
+anki \
+bible-kjv \
+clamav \  #
+i3 \
 lxappearance \
 lxqt \
 lxqt-extras \
@@ -139,53 +202,16 @@ lxqt-sudo \
 lxqt-themes \
 lxrandr \
 lxterminal \
-maven \
 mc \
-minecraft \
-mlt \
 mplayer \
 mpv \
 mtools \
-mtpaint \
-mupen64plus \
-mypaint \
-nano \
-nasm \
-netbeans \
-nmap \
-nmap-zenmap \
-node \
-nyancat \
 openbox \  #
 os-test \
-pcbasic \
 pcmanfm \
 pcmanfm-qt \
-pcre++ \
-pcre2 \
-php \  #
-postgresql-* \
-python \
-python-idle \
-pylint3 \
-ruby \
-scala \
-sdl2 \
-seamonkey \
-sfml \
 smplayer \
 smtube \
-synfig \
-synfigstudio \
-thunderbird \  #
-tor \  #
-tor-browser \  #
-ungoogled-chromium \  #
-vega-strike \
-vim \
-weechat \
-wget \
-wkhtmltopdf \
 xcursor-themes \
 zsh \
 ```
