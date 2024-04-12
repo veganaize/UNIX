@@ -4,6 +4,8 @@ OpenBSD
 💾 Install
 ----------
 
+_VirtualBox: Machine -> Settings -> System -> Pointing Device: USB Tablet_
+
 ```
 [I]nstall
   - [us] keyboard layout
