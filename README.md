@@ -21,6 +21,4 @@
 
 * [Guide to X11](https://en.wikibooks.org/wiki/Guide_to_X11) - wikibook
 * [Documentation for X11R7.7](https://www.x.org/releases/X11R7.7/doc/) - x.org
-* [X11 Windows and Graphics](https://people.scs.carleton.ca/~claurend/Courses/COMP2401/Notes/COMP2401_Ch8_Graphics.pdf) - carleton university
-* [A Brief Intro to X11 Programming](http://mech.math.msu.su/~vvb/2course/Borisenko/CppProjects/GWindow/xintro.html) - bhammond
 * [X Window System Protocol](https://www.x.org/releases/current/doc/xproto/x11protocol.html) - x.org
