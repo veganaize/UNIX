@@ -22,3 +22,4 @@
 * [Guide to X11](https://en.wikibooks.org/wiki/Guide_to_X11) - wikibook
 * [Documentation for X11R7.7](https://www.x.org/releases/X11R7.7/doc/) - x.org
 * [X Window System Protocol](https://www.x.org/releases/current/doc/xproto/x11protocol.html) - x.org
+* [Explanation - Play, don't show](https://magcius.github.io/xplain/article/) (windowing techniques)
