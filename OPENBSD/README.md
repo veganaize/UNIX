@@ -230,12 +230,7 @@ xcursor-themes \
         . $HOME/.profile
         startlxqt
 
--> DesktopSettings  
-  -> LXQt Settings  
-    -> Keyboard and Mouse  
-      -> Cursor  
-        -> whiteglass  
-        -> Size: 32  
+_Desktop Menu: DesktopSettings -> LXQt Settings -> Keyboard and Mouse -> Cursor -> whiteglass -> Size: 32_
 
 * https://www.openbsd.org/faq/faq11.html
 * https://www.x.org/archive/X11R7.5/doc/platforms/OpenBSD.html
