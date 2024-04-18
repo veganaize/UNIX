@@ -33,9 +33,9 @@ Location of sets: http
 
 <pre>
 $ <a href="https://man.openbsd.org/su">su</a>
-# cd /etc
-# cp examples/doas.conf .
-# exit
+# <a href="https://man.openbsd.org/sh#cd">cd</a> /etc
+# <a href="https://man.openbsd.org/cp">cp</a> examples/doas.conf .
+# <a href="https://man.openbsd.org/sh.1#exit">exit</a>
 
 $ man <a href="https://man.openbsd.org/mail">mail</a>
 $ man <a href="https://man.openbsd.org/afterboot">afterboot</a>
@@ -43,7 +43,7 @@ $ man <a href="https://man.openbsd.org/intro">intro</a>
 $ man <a href="https://man.openbsd.org/packages">packages</a>
 $ man <a href="https://man.openbsd.org/config">config</a>
 
-# syspatch
+# <a href="https://man.openbsd.org/syspatch">syspatch</a>
 # <a href="https://man.openbsd.org/vi">vi</a> /etc/ssh/sshd_config
   `PermitRootLogin no`
 
@@ -54,7 +54,7 @@ $ man <a href="https://man.openbsd.org/ps">ps</a>
 $ man <a href="https://man.openbsd.org/netstat">netstat</a>
 $ man <a href="https://man.openbsd.org/fstat">fstat</a>
 
-# adduser
+# <a href="https://man.openbsd.org/adduser">adduser</a>
 # vi /etc/group
   `wheel:*:0:root,veganaiZe`
 
