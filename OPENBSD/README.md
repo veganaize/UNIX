@@ -31,60 +31,62 @@ Location of sets: http
 🔨 Post-install
 ---------------
 
-    $ su
-    # cd /etc
-    # cp examples/doas.conf .
-    # exit
+<pre>
+$ <a href="https://man.openbsd.org/su">su</a>
+# cd /etc
+# cp examples/doas.conf .
+# exit
 
-    $ mail
-    $ man afterboot
-    $ man intro
-    $ man packages
-    $ man config
+$ man <a href="https://man.openbsd.org/mail">mail</a>
+$ man <a href="https://man.openbsd.org/afterboot">afterboot</a>
+$ man <a href="https://man.openbsd.org/intro">intro</a>
+$ man <a href="https://man.openbsd.org/packages">packages</a>
+$ man <a href="https://man.openbsd.org/config">config</a>
 
-    # syspatch
-    # vi /etc/ssh/sshd_config
-      `PermitRootLogin no`
-    
-    $ date
-    # ln -fs /usr/share/zoneinfo/US/Pacific /etc/localtime
+# syspatch
+# <a href="https://man.openbsd.org/vi">vi</a> /etc/ssh/sshd_config
+  `PermitRootLogin no`
 
-    $ man ps
-    $ man netstat
-    $ man fstat
+$ <a href="https://man.openbsd.org/date">date</a>
+# <a href="https://man.openbsd.org/ln">ln</a> -fs /usr/share/zoneinfo/US/Pacific /etc/localtime
 
-    # adduser
-    # vi /etc/group
-      `wheel:*:0:root,veganaiZe`
+$ man <a href="https://man.openbsd.org/ps">ps</a>
+$ man <a href="https://man.openbsd.org/netstat">netstat</a>
+$ man <a href="https://man.openbsd.org/fstat">fstat</a>
 
-    $ man audio
-    $ man video
-    # vi /etc/sysctl.conf
-      ```
-      kern.audio.record=1
-      kern.video.record=1
-      ```
+# adduser
+# vi /etc/group
+  `wheel:*:0:root,veganaiZe`
 
-    $ man apmd
-    $ man fbtab
-    $ man crontab
-    # crontab -l
+$ man <a href="https://man.openbsd.org/audio">audio</a>
+$ man <a href="https://man.openbsd.org/video">video</a>
+# vi /etc/sysctl.conf
+  ```
+  kern.audio.record=1
+  kern.video.record=1
+  ```
 
-    # pkg_add -u [pkgname(s)]  # Update specific package(s) or all
-    $ pkg_info -Q unzip
-    $ pkglocate mutool  # Find files in packages
+$ man <a href="https://man.openbsd.org/apmd">apmd</a>
+$ man <a href="https://man.openbsd.org/fbtab">fbtab</a>
+$ man <a href="https://man.openbsd.org/crontab">crontab</a>
+# crontab -l
 
-    # pkg_add -v chromium firefox pkglocatedb
-    # pkg_delete <pkg(s)>
-    # pkg_delete -a
+# <a href="https://man.openbsd.org/pkg_add">pkg_add</a> -u [pkgname(s)]  # Update specific package(s) or all
+$ <a href="https://man.openbsd.org/pkg_info">pkg_info</a> -Q unzip
+$ <a href="https://man.openbsd.org/pkglocate">pkglocate</a> mutool  # Find files in packages
 
-    $ man rc.d
-    $ man rc
-    # rcctl 
+# pkg_add -v chromium firefox pkglocatedb
+# <a href="https://man.openbsd.org/pkg_delete">pkg_delete</a> <pkg(s)>
+# pkg_delete -a
 
-    /etc/rc.conf
-    /etc/rc.conf.local
-    /etc/rc.conf.d/
+$ man <a href="https://man.openbsd.org/rc.d">rc.d</a>
+$ man <a href="https://man.openbsd.org/rc">rc</a>
+# <a href="https://man.openbsd.org/rcctl">rcctl</a> 
+
+/etc/<a href="https://man.openbsd.org/rc.conf">rc.conf</a>
+/etc/<a href="https://man.openbsd.org/rc.conf.local">rc.conf.local</a>
+/etc/rc.conf.d/
+</pre>
 
 
 📦 Packages
