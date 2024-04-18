@@ -224,16 +224,18 @@ xcursor-themes \
     # rcctl enable xenodm
     # rcctl start xenodm
 
-    xrandr --output default --mode <1600x900 | 1368x768>
-    . $HOME/.profile
-    startlxqt
+    $ nano -w ~/.xsession
+        export LC_CTYPE="en_US.UTF-8"
+        xrandr --output default --mode <1600x900 | 1366x768>
+        . $HOME/.profile
+        startlxqt
 
--> DesktopSettings
-  -> LXQt Settings
-    -> Keyboard and Mouse
-      -> Cursor
-        -> whiteglass
-        -> Size: 32
+-> DesktopSettings  
+  -> LXQt Settings  
+    -> Keyboard and Mouse  
+      -> Cursor  
+        -> whiteglass  
+        -> Size: 32  
 
 * https://www.openbsd.org/faq/faq11.html
 * https://www.x.org/archive/X11R7.5/doc/platforms/OpenBSD.html
@@ -243,7 +245,7 @@ xcursor-themes \
 -------------
 
 ```
-# nano /etc/man.conf
+# nano -w /etc/man.conf
     `manpath /usr/local/jdk-1.8.0/man`
 ```
 
