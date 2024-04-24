@@ -7,6 +7,8 @@
 ---
 
 * [Guide to Unix](https://en.wikibooks.org/wiki/Guide_to_Unix) - wikibook
+* Shell
+  - [BASH](https://www.gnu.org/software/bash/) [[_manual - single page_]()] [[_manual - multi page_](https://www.gnu.org/software/bash/manual/html_node/index.html)]
 * [Vim](https://www.vim.org/)
   - [A Byte of Vim](https://vim.swaroopch.com/byte-of-vim.pdf)
   - [Cheat Sheets](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
