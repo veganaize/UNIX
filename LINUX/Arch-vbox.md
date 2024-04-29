@@ -14,9 +14,9 @@ fdisk /dev/sda
 2.  `o` - create a new empty DOS partition table
 3.  `n` - add a new partition
 4.  `p`rimary
-5.  `ENTER`
-6.  `ENTER`
-7.  `ENTER`
+5.  `ENTER` default: 1
+6.  `ENTER` default: 2048
+7.  `ENTER` default
 8.  `y`es remove signature _(only if asked)_
 9.  `t`ype -> `linux`
 10. `a` - toggle bootable flag
