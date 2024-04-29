@@ -7,6 +7,7 @@
 ---
 
 * [Guide to Unix](https://en.wikibooks.org/wiki/Guide_to_Unix) - wikibook
+* [List of GNU Packages](https://en.wikipedia.org/wiki/List_of_GNU_packages) - wikipedia
 * Shell
   - [BASH](https://www.gnu.org/software/bash/) [[_manual - single page_]()] [[_manual - multi page_](https://www.gnu.org/software/bash/manual/html_node/index.html)]
 * [Vim](https://www.vim.org/)
