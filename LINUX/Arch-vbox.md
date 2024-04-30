@@ -242,7 +242,7 @@ Section "Screen"
 
 VBox Menubar -> `Devices` -> `Insert Guest Additions CD image...`
 ```bash
-sudo pacman -S linux[-libre]-lts-headers
+sudo pacman -S linux[-libre]-lts-headers gcc make
 sudo mount /dev/cdrom /mnt
 sudo bash /mnt/VBoxLinuxAdditions.run
 ```
