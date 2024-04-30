@@ -202,6 +202,7 @@ pacman -S lxde \
           xorg \
           xorg-xinit \
           xf86-video-fbdev \
+          xf86-video-vmware \
           leafpad \
           chromium \
           tk \
@@ -240,7 +241,7 @@ Section "Screen"
 
 VBox Menubar -> `Devices` -> `Insert Guest Additions CD image...`
 ```bash
-sudo pacman -S linux-zen-headers
+sudo pacman -S linux[-libre]-lts-headers
 sudo mount /dev/cdrom /mnt
 sudo bash /mnt/VBoxLinuxAdditions.run
 ```
