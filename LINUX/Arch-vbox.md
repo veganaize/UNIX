@@ -75,6 +75,10 @@ nano -w /etc/locale.conf
 2. `CTRL+X` -> `Y` -> `ENTER`
 
 ```bash
+mkinitcpio -p linux[-libre]-lts
+```
+
+```bash
 passwd
 ```
 _Then enter a pin number or something._
