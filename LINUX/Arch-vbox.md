@@ -156,6 +156,8 @@ ___Install (AUR)___  | `git clone https://aur.archlinux.org/somepackage.git`<br 
 ---
 ```bash
 pacman -S base-devel \
+          gcc \
+          make \
           python \
           python-pip \
           sudo \
@@ -205,7 +207,7 @@ pacman -S lxde \
           xf86-video-fbdev \
           xf86-video-vmware \
           leafpad \
-          chromium \
+          icecat \
           tk \
           ttf-dejavu \
           ttf-droid \
