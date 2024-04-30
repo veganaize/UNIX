@@ -36,7 +36,17 @@ mount /dev/sda1 /mnt  ## Every time ##
 [_Live System Package List_](https://geo.mirror.pkgbuild.com/iso/latest/arch/pkglist.x86_64.txt)
 
 ```bash
-pacstrap /mnt base linux-zen nano man-db man-pages texinfo
+pacman --needed -Syy archlinux-keyring [parabola-keyring] [archlinux32-keyring]
+```
+
+```bash
+nano -w /etc/pacman.d/mirrorlist
+nano -w /etc/pacman.conf
+    ParallelDownloads=5
+```
+
+```bash
+pacstrap /mnt base linux-lts nano man-db man-pages texinfo
 ```
 
 ```bash
