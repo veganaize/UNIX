@@ -158,6 +158,7 @@ ___Install (AUR)___  | `git clone https://aur.archlinux.org/somepackage.git`<br 
 pacman -S base-devel \
           python \
           python-pip \
+          sudo \
 ```
 
 
