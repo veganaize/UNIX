@@ -46,7 +46,7 @@ nano -w /etc/pacman.conf
 ```
 
 ```bash
-pacstrap /mnt base linux[-libre]-lts nano man-db man-pages texinfo
+pacstrap /mnt [parabola-]base linux[-libre]-lts nano man-db man-pages texinfo
 ```
 
 ```bash
