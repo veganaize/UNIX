@@ -129,6 +129,13 @@ systemctl enable systemd-resolved.service
 systemctl start  systemd-resolved.service
 ```
 
+```bash
+nano -w /etc/hosts
+    127.0.0.1   localhost
+    ::1	        localhost
+    127.0.1.1   MY_HOSTNAME.localdomain myhostname
+```
+
 
 Pacman
 ----------------------------------------
