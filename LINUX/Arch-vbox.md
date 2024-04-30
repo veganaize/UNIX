@@ -46,7 +46,7 @@ nano -w /etc/pacman.conf
 ```
 
 ```bash
-pacstrap /mnt base linux-lts nano man-db man-pages texinfo
+pacstrap /mnt base linux[-libre]-lts nano man-db man-pages texinfo
 ```
 
 ```bash
@@ -131,7 +131,7 @@ Pacman
 
 Task                 | Command
 :-------------------:|---------------------------------
-___Update Keys___    | `pacman -S archlinux-keyring`
+___Update Keys___    | `pacman -S archlinux-keyring [parabola-keyring] [archlinux32-keyring]`
 ___Update___         | `pacman -Syyu`
 ___Search___         | `pacman -Ss string1 string2 ...`
 ___Info___           | `pacman -Si <package>`
