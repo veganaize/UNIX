@@ -140,18 +140,19 @@ nano -w /etc/hosts
 Pacman
 ----------------------------------------
 
-Task                 | Command
-:-------------------:|---------------------------------
-___Update Keys___    | `pacman -S archlinux-keyring [parabola-keyring] [archlinux32-keyring]`
-___Update___         | `pacman -Syyu`
-___Search___         | `pacman -Ss string1 string2 ...`
-___Info___           | `pacman -Si <package>`
-___Install___        | `pacman -S <package(s)>`
-___Clean___          | `pacman -Scc`
-___Remove___         | `pacman -Rns <package>`
-___Owned Files___    | `pacman -Ql <package>`
-___Owning Package___ | `pacman -Qo <file>`
-___Install (AUR)___  | `git clone https://aur.archlinux.org/somepackage.git`<br />`cd somepackage`<br />`makepkg -sirc`
+Task                  | Command
+:--------------------:|---------------------------------
+___Update Keys___     | `pacman -S archlinux-keyring [parabola-keyring] [archlinux32-keyring]`
+___Update___          | `pacman -Syyu`
+___Search___          | `pacman -Ss string1 string2 ...`
+___Info___            | `pacman -Si <package>`
+___Install___         | `pacman -S <package(s)>`
+___Clean___           | `pacman -Scc`
+___Remove___          | `pacman -Rns <package>`
+___Owned Files___     | `pacman -Ql <package>`
+___Owning Package___  | `pacman -Qo <file>`
+___Installed (AUR)___ | `pacman -Qm`
+___Install (AUR)___   | `git clone https://aur.archlinux.org/somepackage.git`<br />`cd somepackage`<br />`makepkg -sirc`
 
 ---
 ```bash
