@@ -148,7 +148,7 @@ ___Search___          | `pacman -Ss string1 string2 ...`
 ___Info___            | `pacman -Si <package>`
 ___Install___         | `pacman -S <package(s)>`
 ___Clean___           | `pacman -Scc`
-___Remove___          | `pacman -Rns <package>`
+___Remove___          | `pacman -Rns <package(s)>`
 ___Owned Files___     | `pacman -Ql <package>`
 ___Owning Package___  | `pacman -Qo <file>`
 ___Installed (AUR)___ | `pacman -Qm`
