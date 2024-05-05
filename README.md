@@ -18,6 +18,7 @@
   - [Vim Help Files](https://vimhelp.org/) - html version of the vim help pages
   - [Vim Regular Expressions](http://web.archive.org/web/20050628074437id_/http://www.geocities.com/volontir/)
   - [Vim Regular Expressions 101](http://web.archive.org/web/20080910172519id_/http://larc.ee.nthu.edu.tw/~cthuang/vim/files/vim-regex/vim-regex.htm)
+* [Nano](https://www.nano-editor.org/docs.php)
 
 
 [X Windowing System](https://en.wikipedia.org/wiki/X_Window_System)
