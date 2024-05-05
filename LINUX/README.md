@@ -1,4 +1,4 @@
 LINUX
 =====
 
-* [Linux From Scratch (LFS)](https://www.linuxfromscratch.org/lfs/view/development/index.html)
+* [Linux From Scratch (LFS)](https://www.linuxfromscratch.org/lfs/view/stable/)
