@@ -20,6 +20,7 @@
       - [Cheat Sheets](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
       - [Use Vim Like A Pro](https://archive.org/download/the7habitsofhighlyeffectivepeople_202001/Programming%20Books/Tim%20Ottinger%20-%20Vim%20Like%20A%20Pro.pdf) - tim ottinger _([cc by 3.0](https://creativecommons.org/licenses/by/3.0/))_
       - [Vi Editor](https://ss64.com/vi.html) - ss64.com
+      - [VimGolf](https://www.vimgolf.com/) - real ninjas count every keystroke
       - [Vi Quick Reference](https://www.ele.uri.edu/faculty/vetter/Other-stuff/vi/vi-quick-ref.pdf)
       - [Vim Help Files](https://vimhelp.org/) - html version of the vim help pages
       - [Vim Regular Expressions](http://web.archive.org/web/20050628074437id_/http://www.geocities.com/volontir/)
