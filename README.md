@@ -8,6 +8,7 @@
 
 * [Guide to Unix](https://en.wikibooks.org/wiki/Guide_to_Unix) - wikibook
 * [Filesystem Hierarchy Standard (FHS)](https://refspecs.linuxfoundation.org/fhs.shtml) - linux foundation
+* [POSIX.1-2024](https://pubs.opengroup.org/onlinepubs/9799919799/)
 
 ---
 
