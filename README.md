@@ -9,6 +9,10 @@
 * [Guide to Unix](https://en.wikibooks.org/wiki/Guide_to_Unix) - wikibook
 * [Filesystem Hierarchy Standard (FHS)](https://refspecs.linuxfoundation.org/fhs.shtml) - linux foundation
 * [POSIX.1-2024](https://pubs.opengroup.org/onlinepubs/9799919799/)
+* [Unix 7th Edition Manual](https://plan9.io/7thEdMan/) - 1979
+  - [Volume 1](https://plan9.io/7thEdMan/v7vol1.pdf) - pdf
+  - [Volume 2a](https://plan9.io/7thEdMan/v7vol2a.pdf) - pdf
+  - [Volume 2b](https://plan9.io/7thEdMan/v7vol2b.pdf) - pdf
 
 ---
 
