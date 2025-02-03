@@ -1,5 +1,5 @@
-OpenBSD
-=======
+[OpenBSD](https://www.openbsd.org/)
+=========
 
 💾 Install
 ----------
@@ -87,6 +87,13 @@ $ man <a href="https://man.openbsd.org/rc">rc</a>
 /etc/<a href="https://man.openbsd.org/rc.conf.local">rc.conf.local</a>
 /etc/rc.conf.d/
 </pre>
+
+
+📑 Documentation
+----------------
+
+* [OpenBSD Handbook](https://www.openbsdhandbook.com/)
+* [OpenBSD Manual Pages](https://man.openbsd.org/)
 
 
 📦 Packages
@@ -255,3 +262,15 @@ _Desktop Menu: DesktopSettings -> LXQt Settings -> Keyboard and Mouse -> Cursor 
        # dmesg; sysctl hw.sensors >/root/my-stuff.txt
 
 3. _Email to: <dmesg@openbsd.org>_
+
+
+🔃 System Upgrade
+-----------------
+
+    # sysupgrade
+    
+    ## After Reboot ##
+    
+    # syspatch
+    # pkg_add -Uu
+    # sysmerge -d
