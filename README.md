@@ -8,7 +8,11 @@
 
 * [Guide to Unix](https://en.wikibooks.org/wiki/Guide_to_Unix) - wikibook
 * [Filesystem Hierarchy Standard (FHS)](https://refspecs.linuxfoundation.org/fhs.shtml) - linux foundation
-* [POSIX.1-2024](https://pubs.opengroup.org/onlinepubs/9799919799/)
+* [POSIX](https://en.wikipedia.org/wiki/POSIX)
+  - [POSIX.1-2001](https://pubs.opengroup.org/onlinepubs/009695399/) IEEE Std 1003.1-2004
+  - [POSIX.1-2008](https://pubs.opengroup.org/onlinepubs/9699919799.2016edition/) 2008-2016
+  - [POSIX.1-2017](https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/) IEEE Std 1003.1-2017
+  - [POSIX.1-2024](https://pubs.opengroup.org/onlinepubs/9799919799/) IEEE Std 1003.1-2024
 * [Unix 7th Edition Manual](https://plan9.io/7thEdMan/) - 1979
   - [Volume 1](https://plan9.io/7thEdMan/v7vol1.pdf) - pdf
   - [Volume 2a](https://plan9.io/7thEdMan/v7vol2a.pdf) - pdf
