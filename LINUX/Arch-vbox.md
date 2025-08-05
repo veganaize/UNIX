@@ -36,7 +36,7 @@ mount /dev/sda1 /mnt  ## Every time ##
 [_Live System Package List_](https://geo.mirror.pkgbuild.com/iso/latest/arch/pkglist.x86_64.txt)
 
 ```bash
-pacman --needed -Syy archlinux-keyring [parabola-keyring] [archlinux32-keyring]
+pacman --needed -Syy archlinux-keyring [archlinux32-keyring]
 ```
 
 ```bash
@@ -46,7 +46,7 @@ nano -w /etc/pacman.conf
 ```
 
 ```bash
-pacstrap /mnt [parabola-]base linux[-libre]-lts nano man-db man-pages texinfo
+pacstrap /mnt base linux-lts nano man-db man-pages texinfo
 ```
 
 ```bash
@@ -75,7 +75,7 @@ nano -w /etc/locale.conf
 2. `CTRL+X` -> `Y` -> `ENTER`
 
 ```bash
-mkinitcpio -p linux[-libre]-lts
+mkinitcpio -p linux-lts
 ```
 
 ```bash
@@ -243,7 +243,7 @@ Section "Screen"
 
 VBox Menubar -> `Devices` -> `Insert Guest Additions CD image...`
 ```bash
-sudo pacman -S linux[-libre]-lts-headers gcc make
+sudo pacman -S linux-lts-headers gcc make
 sudo mount /dev/cdrom /mnt
 sudo bash /mnt/VBoxLinuxAdditions.run
 ```
