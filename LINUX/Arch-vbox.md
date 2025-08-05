@@ -142,11 +142,11 @@ Pacman
 
 Task                  | Command
 :--------------------:|---------------------------------
-___Update Keys___     | `pacman -S archlinux-keyring [parabola-keyring] [archlinux32-keyring]`
+___Update Keys___     | `pacman -S archlinux-keyring [archlinux32-keyring]`
 ___Update___          | `pacman -Syyu`
-___Search___          | `pacman -Ss string1 string2 ...`
+___Search___          | `pacman -Ss <string(s)>`
 ___Info___            | `pacman -Si <package>`
-___Install___         | `pacman -S <package(s)>`
+___Install___         | `pacman -S [--needed] <package(s)>`
 ___Clean___           | `pacman -Scc`
 ___Remove___          | `pacman -Rns <package(s)>`
 ___Owned Files___     | `pacman -Ql <package>`
