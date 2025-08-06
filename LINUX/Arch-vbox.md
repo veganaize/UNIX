@@ -146,7 +146,7 @@ ___Update Keys___     | `pacman -S archlinux-keyring [archlinux32-keyring]`
 ___Update___          | `pacman -Syyu`
 ___Search___          | `pacman -Ss <string(s)>`
 ___Info___            | `pacman -Si <package>`
-___Install___         | `pacman -S [--needed] <package(s)>`
+___Install___         | `pacman -S [--needed] <package(s)>`<br /> _or_ <br />`pacman -U [http://example.com]/path/to/name.pkg.tar.zst`
 ___Clean___           | `pacman -Scc`
 ___Remove___          | `pacman -Rns <package(s)>`
 ___Owned Files___     | `pacman -Ql <package>`
