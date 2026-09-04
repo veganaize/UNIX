@@ -3,7 +3,7 @@ Install Debian GNU/Linux in VirtualBox
 
 1. Download & install [VirtualBox](https://www.virtualbox.org/)
 
-[_Debian's Installation Guide_](https://www.debian.org/releases/bullseye/installmanual)
+[_Debian's Installation Guide_](https://www.debian.org/releases/stable/installmanual)
 
 2. Download & mount [Debian netinst ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/)
     - VirtualBox Manager Menu Bar -> `Machine` -> `New`
@@ -143,7 +143,7 @@ cd /media/cdrom
 sudo bash ./VBoxLinuxAdditions.run
 
 ## Other Kernels & Troubleshooting ##
-/sbin/rcvboxadd quicksetup all #For all installed kernels
+/sbin/rcvboxadd quicksetup all  # For all installed kernels
 /sbin/rcvboxadd setup
 less /var/log/vboxadd-setup.log
 ```
@@ -197,11 +197,11 @@ sudo apt-get clean
 3D Video Acceleration
 =====================
 * Desktop Taskbar Menu -> `Logout` -> `Shutdown`
-* VirtualBox Manager -> right-click `Debian 11` -> `Settings...` -> `Display`
+* VirtualBox Manager -> right-click `Debian` -> `Settings...` -> `Display`
     - Video Memory: `128 MB`
-    - Graphics Controller: `VMSVGA`
+    - Graphics Controller: `VBoxSVGA`
     - `Check`: Enable 3D Acceleration
-* VirtualBox Manager -> double-click `Debian 11`
+* VirtualBox Manager -> double-click `Debian`
 ```bash
 sudo apt-get install mesa-utils
 glxinfo | grep OpenGL
